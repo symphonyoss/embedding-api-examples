@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/symphonyoss/embedding-api-examples)](https://travis-ci.org/symphonyoss/embedding-api-examples)
+
 # embedding-api-examples
 
 This repo contains examples of the Symphony Embedding API. This API allows you to communicate with 
