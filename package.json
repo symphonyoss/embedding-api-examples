@@ -1,0 +1,15 @@
+{
+  "name": "embedded-api-example",
+  "version": "0.0.1",
+  "description": "An example application for the Symphony Embedded API",
+  "main": "app/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jared Rada",
+  "devDependencies": {
+    "css-loader": "^0.23.1",
+    "style-loader": "^0.13.0",
+    "webpack": "^1.12.14"
+  }
+}

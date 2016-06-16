@@ -1,0 +1,47 @@
+<!--
+Licensed to the Symphony Software Foundation (SSF) under one
+or more contributor license agreements.  See the NOTICE file
+distributed with this work for additional information
+regarding copyright ownership.  The SSF licenses this file
+to you under the Apache License, Version 2.0 (the
+"License"); you may not use this file except in compliance
+with the License.  You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Symphony Embedding API Examples</title>
+</head>
+<body>
+    <p>You must initiate a WebSocket connection with the message bus.</p>
+﻿    <button id='open'>Open WS</button>
+
+    <p>Add a button to both the profile and IM modules. This only places the button and does not set up a handler for when the button is clicked.</p>
+    <button id='add-profile-button'>Add profile/IM button</button>
+
+    <p>To receive notifications when the UI button is executed you must register an interest on the topic. Note the <span class="code">address</span> property matches the <span class="code">data.responseAddress</span> field of the above method. After you register you can then click the button in the UI to see a log in the console printed.</p>
+    <button id="register-topic">Register interest</button>
+
+    <p>This example shows a banner announcement across the top of the UI.</p>
+    <button id='announce'>Show banner</button>
+
+    <p>You can also start a conversation with a predefined initial message. Note this API call can take a few seconds to reflect in the UI.</p>
+    <button id="talk">Start conversation</button>
+
+    <p>Kill the WebSocket connection if you no longer need to interact with Symphony.</p>
+    <button id='close'>Close WS</button>
+
+    <script src="bundle.js"></script>
+</body>
+</html>
