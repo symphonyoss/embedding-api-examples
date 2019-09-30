@@ -1,8 +1,9 @@
-Client Embedding API Examples
-Copyright 2016 The Symphony Software Foundation
+Client Embedding API Examples - FINOS
 
-This product includes software developed at
-The Symphony Software Foundation (http://symphony.foundation).
+Copyright 2016 The Symphony Software Foundation
+Copyright 2019 FINOS info@finos.org
+
+This product includes software developed at the Fintech Open Source Foundation (https://www.finos.org/).
 
 This project has dependencies on npm modules, including:
 * css-loader
